@@ -4,7 +4,7 @@
 #========================================#
 
 # Cycle wal background image and colorscheme.
-wal -i "$HOME/Pictures/wall"
+wal -i "$HOME/Pictures/wal"
 
 # Restart polybar to match new colorscheme.
 pkill polybar
