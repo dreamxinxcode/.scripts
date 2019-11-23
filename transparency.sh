@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if grep -Fxq "URxvt*transparent: false" /home/$USER/.Xresources
 then
 	sed -i 's/URxvt\*transparent: false/URxvt\*transparent: true/g' /home/$USER/.Xresources
