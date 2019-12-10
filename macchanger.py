@@ -14,6 +14,7 @@ addrs = psutil.net_if_addrs()
 for interface in addrs.keys():
     call(["sudo", "ip", "link", "set", str(interface), "down"])
     print("Setting \033[1m\033[96m{}\033[0m down..".format(interface))
+    wait(2000)
 
 
 for interface in addrs.keys():
