@@ -7,7 +7,7 @@ def main():
     description = input("Description: ")
     snippet = input("Snippet: ")
     home = os.environ["HOME"]
-    with open(home + "/Documents/useful", "a") as f:
+    with open(home + "/Documents/useful/useful", "a") as f:
         f.write("\n# " + description + "\n" + snippet)
         f.close
 if (__name__ == "__main__"):
